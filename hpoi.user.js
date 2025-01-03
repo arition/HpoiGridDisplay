@@ -6,6 +6,7 @@
 // @version     1.0
 // @author      arition
 // @description Grid display for hpoi user home page
+// @license MIT
 // ==/UserScript==
 
 function updateLayout() {
