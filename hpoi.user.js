@@ -12,7 +12,9 @@
 function updateLayout() {
   $(".home-left").addClass("hidden");
   $(".home-right").addClass("hidden");
-  $(".home-left + div").addClass("col-md-24");
+  $(".home-zone-nav-column").addClass("col-md-24");
+  $(".home-zone-detail-tabs-column").addClass("col-md-24");
+  $(".home-zone-detail-tabs-column + div").addClass("col-md-24");
   $(".home-info-content").addClass("col-md-24");
   $(".overlay-container").addClass("col-md-24");
   $(".hp-single-line").addClass("col-md-24").removeClass("col-xs-offset-8").removeClass("user-home-bottom-info");
